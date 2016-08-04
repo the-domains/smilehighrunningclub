@@ -1,28 +1,40 @@
-name: smilehighrunningclub
-favicon: null
-layout_spectrum: 0.3107412194367498
-typography_spectrum: 0.5681010915432125
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.3107412194367498
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.3966148463077843
+  brandStrength: 0.9280419496353716
+  rhythmicContrast: 0.00937638501636684
   brandColors:
     - '#ffffff'
     - '#045ebe'
     - '#09132c'
     - '#ba8068'
     - '#03a8ff'
-  brandStrength: 0.9280419496353716
   lightness: 0.7093961478676647
-  saturation: 0.3966148463077843
-  rhythmicContrast: 0.00937638501636684
 purpose: []
+favicon: null
+name: smilehighrunningclub
+typography_spectrum: 0.5681010915432125
